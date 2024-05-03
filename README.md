@@ -16,10 +16,11 @@ https://reactnative.dev/docs/environment-setup
 
 ## Errors
 
-### PROBLEM: DeprecationWarning - 'punycode'
+### PROBLEM: DeprecationWarning - "punycode"
 
-```(node:22281) [DEP0040] DeprecationWarning: The 'punycode' module is deprecated. Please use a userland alternative instead.
-(Use 'node --trace-deprecation ...' to show where the warning was created)```
+
+`(node:22281) [DEP0040] DeprecationWarning: The 'punycode' module is deprecated. Please use a userland alternative instead.
+(Use 'node --trace-deprecation ...' to show where the warning was created)`
 
 - Found 2 ways to resolve this issue, but changing the node version from the latest version to the LTS version is the only way the worked.  
 
@@ -35,7 +36,7 @@ Chocolatey commands:
 
 ### PROBLEM: Expo Go  LAN URL connection error
 
-```There was a problem loading the requested app. It looks like you may be using LAN URL. Make sure your device is on the sae network as the server or try using a tunnel.```
+`There was a problem loading the requested app. It looks like you may be using LAN URL. Make sure your device is on the sae network as the server or try using a tunnel.`
 
     Before proceeding with this solution ensure the Expo Go app has permission to access "Local Network" in your phones app settings and that VPN's are turned off. Rerun the `npx expo start command` if you had to change app settings.
 
