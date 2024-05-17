@@ -1,0 +1,14 @@
+.product-image {
+    height: 300px;
+}
+
+.image-credits {
+    font-size: 12px;
+}
+
+.container {
+    flex: 1;
+    background-color: '#fff';
+    align-items: 'center';
+    justify-content: 'center';
+  }
