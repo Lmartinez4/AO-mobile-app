@@ -19,7 +19,9 @@
     "react-dom": "18.2.0",
     "react-native": "^0.74.1",
     "react-native-web": "~0.19.6",
-    "react-navigation": "^5.0.0"
+    "react-navigation": "^5.0.0",
+    "expo-auth-session": "~5.5.2",
+    "expo-crypto": "~13.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
