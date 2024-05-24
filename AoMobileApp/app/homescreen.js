@@ -1,24 +1,15 @@
-// import { Text, View } from 'react-native';
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 
-// import HomeScreen from "/homescreen";
-// import EmotionWheel from "../app/emotion-wheel-screen";
-
-// export default function App(){
-//    return (
-
-//    );
-// }
-
-// function HomeScreen() {
-//   return (
-//     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-//       <Text>Home!</Text>
-//     </View>
-//   );
-// }
+export default function HomeScreen() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Home!</Text>
+    </View>
+  );
+}
 
 // function Emotion_Wheel_Screen() {
 //   return (
@@ -43,3 +34,4 @@
 //   );
 // }
 
+318135001

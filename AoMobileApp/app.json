@@ -2,6 +2,7 @@
   "expo": {
     "name": "AoMobileApp",
     "slug": "AoMobileApp",
+    "scheme": "AoMobileApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,6 +32,9 @@
       "eas": {
         "projectId": "993a9ca5-ea20-43ce-8a3c-3c187e582efd"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
