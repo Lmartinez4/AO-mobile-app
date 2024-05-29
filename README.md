@@ -49,6 +49,38 @@ Chocolatey commands:
 https://stackoverflow.com/questions/56715203/there-was-problem-loading-requested-app-it-looks-like-you-may-be-using-lan-url/59155886#59155886
 
 
+## Notes
+
+#### Tab Bar file structure
+
+- Tab bar initiated, creating a "(tabs)" folder inside of the "app" folder. Also create TWO "_layout.js" files one outside of the "(tabs)" folder and another inside the "(tabs)" folder.
+
+Inside (tabs) e.g. `app/(tabs)/_layout.js`
+
+Outside (tabs) e.g. `app/_layout.js`
+
+- may not need the outer "_layout.js" , but this works for right now.
 
 
+#### Adding new tab to the tab bar
 
+- First add a .js file into the (tabs) folder. 
+
+Note that the name of the file will automatically become the new Route name. For example, "settings.js" will create a "/settings" route the app will automatically use.
+
+
+```
+<Tabs.Screen
+        name="settings"
+        options={{
+          title: 'Settings',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
+        }}
+      />
+    </Tabs>
+```
+
+- The code snippet above, shows how we will call the file into the "_layout.js". 
+
+- "name" refers to name of file in (tabs)
+- "title" refers to the display name the tab will have on the Tab Bar.
