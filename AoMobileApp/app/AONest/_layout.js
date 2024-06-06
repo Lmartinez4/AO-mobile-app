@@ -11,13 +11,20 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
         }}
       />
-            {/* <Tabs.Screen
-        name="Emotion Wheel"
+      <Tabs.Screen
+        name="emotion"
         options={{
-          title: 'Emotion Wheel',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
+          title: 'Emotional Intelligence',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="list" color={color} />,
         }}
-      /> */}
+      /> 
+      <Tabs.Screen
+        name="content"
+        options={{
+          title: 'Content',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="book" color={color} />,
+        }}
+      />
       <Tabs.Screen
         name="settings"
         options={{
