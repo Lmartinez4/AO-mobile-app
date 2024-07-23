@@ -1,0 +1,41 @@
+export default [{
+  text: 'Surprised',
+  emoji: '0x1F631',
+  secondary: [{
+    text: 'Amazed',
+    emoji: '0x1F632'
+  }, {
+    text: 'Confused',
+    emoji: '0x1F615'
+  }, {
+    text: 'Excited',
+    emoji: '0x1F606'
+  }, {
+    text: 'Startled',
+    emoji: '0x1F633'
+  }]
+}, {
+  text: 'Happy',
+  emoji: '0x1F600',
+  secondary: []
+}, {
+  text: 'Bad',
+  emoji: '0x1F61F',
+  secondary: []
+}, {
+  text: 'Disgusted',
+  emoji: '0x1F922',
+  secondary: []
+}, {
+  text: 'Fearful',
+  emoji: '0x1F628',
+  secondary: []
+}, {
+  text: 'Sad',
+  emoji: '0x1F61E',
+  secondary: []
+}, {
+  text: 'Angry',
+  emoji: '0x1F621',
+  secondary: []
+}];

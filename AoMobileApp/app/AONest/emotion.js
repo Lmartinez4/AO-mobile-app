@@ -9,7 +9,7 @@ export default function Page() {
         <Text style={styles.title}>Emotional Intelligence</Text>
         <Text style={styles.subtitle}>Instructions, etc.</Text>
         {/* <Link href="/homescreen">Home</Link> */}
-        <Link href="/EmotionWheel/inner">Go to next screen</Link>
+        <Link href="/EmotionWheel">Go to next screen</Link>
       </View>
     </View>
   );

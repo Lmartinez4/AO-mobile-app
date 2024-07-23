@@ -1,9 +1,18 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
 
+import colors from '../constants/colors'
+import styles from '../styles/page';
+
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: 'blue' }}>
+    <Tabs
+      sceneContainerStyle={styles.container}
+      screenOptions={{
+        tabBarActiveTintColor: colors.selectedButton,
+        headerStyle: styles.header,
+        headerTitleStyle: styles.title
+        }}>
       <Tabs.Screen
         name="index"
         options={{
@@ -17,7 +26,7 @@ export default function TabLayout() {
           title: 'Emotional Intelligence',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="list" color={color} />,
         }}
-      /> 
+      />
       <Tabs.Screen
         name="content"
         options={{
@@ -34,4 +43,4 @@ export default function TabLayout() {
       />
     </Tabs>
   );
-}
+};
