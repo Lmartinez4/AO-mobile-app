@@ -8,7 +8,7 @@ import PageWrapper from '../../components/Wrappers/SubPage';
 
 import styles from '../../styles/page';
 
-export default function EmotionWheelInner() {
+export default function EmotionWheelLevel2() {
   const { secondary } = useLocalSearchParams();
   const emotion = secondary ? emotions.find(el => el.text === secondary) : {};
   return(
