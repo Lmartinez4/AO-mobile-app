@@ -3,16 +3,64 @@ export default [{
   emoji: '0x1F631',
   secondary: [{
     text: 'Amazed',
-    emoji: '0x1F632'
+    emoji: '0x1F632',
+    tertiary: [
+      {
+        text: 'Astonished',
+        emoji: '0x1F632',
+        from: 'Amazed'
+      },
+      {
+        text: 'Awe',
+        emoji: '0x1F929',
+        from: 'Amazed'
+      }
+    ]
   }, {
     text: 'Confused',
-    emoji: '0x1F615'
+    emoji: '0x1F615',
+    tertiary: [
+      {
+        text: 'Disillusioned',
+        emoji: '0x1FA84',
+        from: 'Confused'
+      },
+      {
+        text: 'Perplexed',
+        emoji: '0x1F914',
+        from: 'Confused'
+      }
+    ]
   }, {
     text: 'Excited',
-    emoji: '0x1F606'
+    emoji: '0x1F606',
+    tertiary: [
+      {
+        text: 'Eager',
+        emoji: '0x1F92D',
+        from: 'Excited'
+      },
+      {
+        text: 'Energetic',
+        emoji: '0x1FAE8',
+        from: 'Excited'
+      }
+    ]
   }, {
     text: 'Startled',
-    emoji: '0x1F633'
+    emoji: '0x1F633',
+    tertiary: [
+      {
+        text: 'Dismayed',
+        emoji: '0x1F616',
+        from: 'Startled'
+      },
+      {
+        text: 'Shocked',
+        emoji: '0x1F632',
+        from: 'Startled'
+      }
+    ]
   }]
 }, {
   text: 'Happy',

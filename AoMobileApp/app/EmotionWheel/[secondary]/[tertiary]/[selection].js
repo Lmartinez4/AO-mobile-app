@@ -1,8 +1,8 @@
 import { Text } from 'react-native';
 import { Link, useLocalSearchParams } from 'expo-router';
 
-import styles from '../../styles/page';
-import PageWrapper from '../../components/Wrappers/SubPage';
+import styles from '../../../styles/page';
+import PageWrapper from '../../../components/Wrappers/SubPage';
 
 export default function EmotionWheelSelection() {
   const { selection } = useLocalSearchParams();
