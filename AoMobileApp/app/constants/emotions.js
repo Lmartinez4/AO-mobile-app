@@ -8,12 +8,10 @@ export default [{
       {
         text: 'Astonished',
         emoji: '0x1F632',
-        from: 'Amazed'
       },
       {
         text: 'Awe',
         emoji: '0x1F929',
-        from: 'Amazed'
       }
     ]
   }, {
@@ -23,12 +21,10 @@ export default [{
       {
         text: 'Disillusioned',
         emoji: '0x1FA84',
-        from: 'Confused'
       },
       {
         text: 'Perplexed',
         emoji: '0x1F914',
-        from: 'Confused'
       }
     ]
   }, {
@@ -38,12 +34,10 @@ export default [{
       {
         text: 'Eager',
         emoji: '0x1F92D',
-        from: 'Excited'
       },
       {
         text: 'Energetic',
         emoji: '0x1FAE8',
-        from: 'Excited'
       }
     ]
   }, {
@@ -53,12 +47,10 @@ export default [{
       {
         text: 'Dismayed',
         emoji: '0x1F616',
-        from: 'Startled'
       },
       {
         text: 'Shocked',
         emoji: '0x1F632',
-        from: 'Startled'
       }
     ]
   }]

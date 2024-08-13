@@ -25,19 +25,19 @@ export default function TabLayout() {
       <Stack.Screen
         name="[secondary]/index"
         options={({ route }) => ({
-          title: `${route.params.secondary} - Level 2`
+          title: `${route.params.secondary} - Level 1`
         })}
       />
       <Stack.Screen
         name="[secondary]/[tertiary]/index"
         options={({ route }) => ({
-          title: `${route.params.secondary} - Level 3`
+          title: `${route.params.secondary} -> ${route.params.tertiary} - Level 2`
         })}
       />
       <Stack.Screen
         name="[secondary]/[tertiary]/[selection]"
         options={({ route }) => ({
-          title: `${route.params.secondary} / ${route.params.tertiary} / ${route.params.selection}`
+          title: `${route.params.secondary} -> ${route.params.tertiary} -> ${route.params.selection} - Level 3`
         })}
       />
     </Stack>
