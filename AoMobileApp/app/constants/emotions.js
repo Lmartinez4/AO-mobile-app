@@ -1,17 +1,21 @@
 export default [{
   text: 'Surprised',
   emoji: '0x1F631',
+  video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?',
   secondary: [{
     text: 'Amazed',
     emoji: '0x1F632',
+    video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?',
     tertiary: [
       {
         text: 'Astonished',
         emoji: '0x1F632',
+        video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?'
       },
       {
         text: 'Awe',
         emoji: '0x1F929',
+        video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?'
       }
     ]
   }, {
@@ -34,6 +38,7 @@ export default [{
       {
         text: 'Eager',
         emoji: '0x1F92D',
+        video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?'
       },
       {
         text: 'Energetic',

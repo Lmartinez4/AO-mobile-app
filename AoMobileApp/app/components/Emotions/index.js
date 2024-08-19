@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
   emotionsWrapper: {
     display: 'grid',
     'grid-template-columns': '1fr 1fr',
-    gap: 20,
+    gap: 40,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
   },
 });
