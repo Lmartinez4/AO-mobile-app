@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Text, Platform } from "react-native";
 
 import emotions from "../constants/emotions";
 import Emotions from "../components/Emotions";
