@@ -4,7 +4,7 @@ import { Link } from 'expo-router'
 import fonts from '../../constants/fonts';
 import colors from '../../constants/colors';
 
-const Emotion = ({ text, icon, href }) => {
+const Navigation = ({ text, icon, href }) => {
   return (
     <Link style={styles.container} href={href}>
       <FontAwesome size={28} name={icon} color={colors.primaryButton} />
@@ -13,7 +13,7 @@ const Emotion = ({ text, icon, href }) => {
   )
 }
 
-export default Emotion;
+export default Navigation;
 
 const styles = StyleSheet.create({
   container: {
