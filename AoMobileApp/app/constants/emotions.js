@@ -84,7 +84,7 @@ export default [{
   video: 'https://play.vidyard.com/w1wWEtYjMi6QNxL1HcrEDZ.html?',
   secondary: []
 }, {
-  text: 'Angry',
+  text: 'Anger',
   emoji: '0x1F621',
   video: 'https://play.vidyard.com/SBFsdgBiiAZ1y82p4zoueg.html?',
   secondary: []
