@@ -4,6 +4,8 @@ import { Tabs } from 'expo-router';
 import colors from '../constants/colors'
 import styles from '../styles/page';
 
+import HeaderLogo from '../components/Logo';
+
 export default function TabLayout() {
   return (
     <Tabs
@@ -11,7 +13,8 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: colors.selectedButton,
         headerStyle: styles.header,
-        headerTitleStyle: styles.title
+        headerTitleStyle: styles.title,
+        headerRight: () => <HeaderLogo />,
         }}>
       <Tabs.Screen
         name="index"

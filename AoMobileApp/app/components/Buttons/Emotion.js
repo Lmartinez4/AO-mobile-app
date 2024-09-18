@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center'
+    alignItems: 'center',
+    width: '50%'
   },
   text: {
     fontSize: fonts.textSize
