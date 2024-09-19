@@ -1,5 +1,3 @@
-import { Link } from "expo-router";
-
 export default [{
   text: 'Surprised',
   emoji: '0x1F631',
@@ -63,51 +61,8 @@ export default [{
 }, {
   text: 'Happy',
   emoji: '0x1F600',
-<<<<<<< HEAD
-  secondary: [{
-    text: "Accepted",
-    emoji: '',
-    tertiary: [
-      {
-        text: 'Astonished',
-        emoji: '',
-      },
-      {
-        text: 'Awe',
-        emoji: ''
-      }
-    ]
-  }, {
-    text: 'Confused',
-    emoji: '',
-    tertiary: [
-      {
-        text: 'Disillusioned',
-        emoji: ''
-      }, 
-      {
-        text: 'Perplexed',
-        emoji: ''
-      }
-    ]
-  }, {
-    text: 'Excited',
-    emoji: '',
-    tertiary: [
-      {
-        text: 'Eager',
-        emoji: ''
-      },
-      {
-        text: 'Energetic',
-        emoji: ''
-      }
-    ]
-  }]
-=======
   video: 'https://play.vidyard.com/w6sJFLjJyt6jwHHF17qrjQ.html?',
   secondary: []
->>>>>>> 5ce551b2a0af7f6d28ce4bfbe161219dd39bc08b
 }, {
   text: 'Bad',
   emoji: '0x1F61F',
