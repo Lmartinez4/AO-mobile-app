@@ -1,6 +1,7 @@
 import { Stack } from 'expo-router/stack';
 
 import styles from '../styles/page';
+import HeaderLogo from '../components/Logo';
 
 export default function TabLayout() {
   return (
@@ -8,6 +9,7 @@ export default function TabLayout() {
       screenOptions={{
         headerStyle: styles.header,
         headerTitleStyle: styles.title,
+        headerRight: () => <HeaderLogo />,
         contentStyle: styles.container
       }}>
       <Stack.Screen
@@ -31,13 +33,13 @@ export default function TabLayout() {
       <Stack.Screen
         name="[secondary]/[tertiary]/index"
         options={({ route }) => ({
-          title: `${route.params.secondary} -> ${route.params.tertiary} - Level 2`
+          title: `${route.params.tertiary} - Level 2`
         })}
       />
       <Stack.Screen
         name="[secondary]/[tertiary]/[selection]"
         options={({ route }) => ({
-          title: `${route.params.secondary} -> ${route.params.tertiary} -> ${route.params.selection} - Level 3`
+          title: `${route.params.selection} - Level 3`
         })}
       />
     </Stack>

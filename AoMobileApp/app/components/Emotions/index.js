@@ -1,13 +1,15 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, FlatList } from "react-native";
 
 import EmotionButton from "../Buttons/Emotion";
 
 export default function Emotions({ emotions, baseHref }) {
-  return(
+  return (
     <View style={styles.emotionsWrapper}>
-      {emotions?.map(emotion => (
-        <EmotionButton emotion={emotion} key={emotion.text} baseHref={baseHref} />
-      ))}
+      <FlatList
+        data={emotions}
+        numColumns={2}
+        renderItem={emotion => <EmotionButton emotion={emotion.item} baseHref={baseHref} />}
+        keyExtractor={item => item.text} />
     </View>
   );
 };
@@ -15,11 +17,6 @@ export default function Emotions({ emotions, baseHref }) {
 
 const styles = StyleSheet.create({
   emotionsWrapper: {
-    display: 'grid',
-    'grid-template-columns': '1fr 1fr',
-    gap: 40,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between'
+   flex: 2
   },
 });
