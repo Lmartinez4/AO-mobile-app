@@ -1,3 +1,5 @@
+import { Link } from "expo-router";
+
 export default [{
   text: 'Surprised',
   emoji: '0x1F631',
@@ -62,7 +64,46 @@ export default [{
 }, {
   text: 'Happy',
   emoji: '0x1F600',
-  secondary: []
+  secondary: [{
+    text: "Accepted",
+    emoji: '',
+    tertiary: [
+      {
+        text: 'Astonished',
+        emoji: '',
+      },
+      {
+        text: 'Awe',
+        emoji: ''
+      }
+    ]
+  }, {
+    text: 'Confused',
+    emoji: '',
+    tertiary: [
+      {
+        text: 'Disillusioned',
+        emoji: ''
+      }, 
+      {
+        text: 'Perplexed',
+        emoji: ''
+      }
+    ]
+  }, {
+    text: 'Excited',
+    emoji: '',
+    tertiary: [
+      {
+        text: 'Eager',
+        emoji: ''
+      },
+      {
+        text: 'Energetic',
+        emoji: ''
+      }
+    ]
+  }]
 }, {
   text: 'Bad',
   emoji: '0x1F61F',
