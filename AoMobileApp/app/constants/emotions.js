@@ -299,15 +299,275 @@ export default [{
   text: 'Fearful',
   emoji: '0x1F628',
   video: 'https://play.vidyard.com/LRNDgM9hbeT3E442RGnVmj.html?',
-  secondary: []
+  secondary: [{
+    text: "Anxious",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Overwhelmed",
+        emoji: ""
+      },
+      {
+        text: "Worried",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Insecure",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Inadequate",
+        emoji: ""
+      },
+      {
+        text: "Inferior",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Rejected",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Excluded",
+        emoji: ""
+      },
+      {
+        text: "Persecuted",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Scared",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Frightened",
+        emoji: ""
+      },
+      {
+        text: "Helpless",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Threatened",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Exposed",
+        emoji: ""
+      },
+      {
+        text: "Nervous",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Weak",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Insignificant",
+        emoji: ""
+      },
+      {
+        text: "Worthless",
+        emoji: ""
+      }
+    ]
+  }]
 }, {
   text: 'Sad',
   emoji: '0x1F61E',
   video: 'https://play.vidyard.com/w1wWEtYjMi6QNxL1HcrEDZ.html?',
-  secondary: []
+  secondary: [{
+    text: "Despair",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Grief",
+        emoji: ""
+      },
+      {
+        text: "Powerless",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Depressed",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Empty",
+        emoji: ""
+      },
+      {
+        text: "Inferior",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Guilty",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Ashamed",
+        emoji: ""
+      },
+      {
+        text: "Remorseful",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Hurt",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Embarrased",
+        emoji: ""
+      },
+      {
+        text: "Disappointed",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Lonely",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Abandoned",
+        emoji: ""
+      },
+      {
+        text: "Isolated",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Vulnerable",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Fragile",
+        emoji: ""
+      },
+      {
+        text: "Victimized",
+        emoji: ""
+      }
+    ]
+  }]
 }, {
   text: 'Anger',
   emoji: '0x1F621',
   video: 'https://play.vidyard.com/SBFsdgBiiAZ1y82p4zoueg.html?',
-  secondary: []
+  secondary: [{
+    text: "Aggressive",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Hostile",
+        emoji: ""
+      },
+      {
+        text: "Provoked",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Bitter",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Indignant",
+        emoji: ""
+      },
+      {
+        text: "Violated",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Critical",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Dismissed",
+        emoji: ""
+      },
+      {
+        text: "Skeptical",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Distant",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Numb",
+        emoji: "",
+      },
+      {
+        text: "Withdrawn",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Frustrated",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Annoyed",
+        emoji: ""
+      },
+      {
+        text: "Infuriated",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Humiliated",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Disrespected",
+        emoji: "",
+      },
+      {
+        text: "Ridiculed",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Let Down",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Betrayed",
+        emoji: ""
+      },
+      {
+        text: "Resentful",
+        emoji: ""
+      }
+    ]
+  }, {
+    text: "Mad",
+    emoji: "",
+    tertiary: [
+      {
+        text: "Furious",
+        emoji: ""
+      },
+      {
+        text: "Jealous",
+        emoji: ""
+      }
+    ]
+  }]
 }];
