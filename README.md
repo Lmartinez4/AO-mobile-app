@@ -84,3 +84,39 @@ Note that the name of the file will automatically become the new Route name. For
 
 - "name" refers to name of file in (tabs)
 - "title" refers to the display name the tab will have on the Tab Bar.
+
+## Emotions Config File
+
+Stores all data for the emotions in an array of objects.
+**Location**: app/constants/emotions
+
+### Emotion Properties
+
+- text **(required)**: The label that will show under the emoji
+- emoji **(required)**:  UTF-8 character encoding of the emoji
+- video: URL of the video for the emotion (from AO website)
+- secondary: An array of emotions nested in a Primary emotion representing its Secondary emotions
+- tertiary: An array of emotions nested in a Secondary emotion representing its Tertiary emotions
+
+### Structure
+
+```
+    [{
+      text: 'Surprised',
+      emoji: '0x1F631',
+      video: 'https://play.vidyard.com/bgwR6Ai7DNBi4Ho7ykczD9.html?',
+      secondary: [{
+        text: 'Amazed',
+        emoji: '0x1F632',
+        tertiary: [
+          {
+            text: 'Astonished',
+            emoji: '0x1F632',
+          },
+        ]
+      },
+    ]
+```
+
+### Remarks
+The video links were taken from the AO website. If the locations of these videos change, the “video” properties must be updated with the new URLs.
