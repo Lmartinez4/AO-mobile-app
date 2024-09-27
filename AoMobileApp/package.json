@@ -18,6 +18,7 @@
     "expo-auth-session": "~5.5.2",
     "expo-constants": "~16.0.2",
     "expo-crypto": "~13.0.2",
+    "expo-dev-client": "~4.0.20",
     "expo-linking": "~6.3.1",
     "expo-router": "~3.5.20",
     "expo-status-bar": "~1.12.1",

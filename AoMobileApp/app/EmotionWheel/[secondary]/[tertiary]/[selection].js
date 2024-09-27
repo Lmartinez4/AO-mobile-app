@@ -33,7 +33,8 @@ export default function EmotionWheelSelection() {
       <View style={{ alignItems: 'center' }}>
         <Text style={styles.title}>Emotional Intelligence</Text>
         <Text style={styles.subtitle}>You selected {selection}.</Text>
-        <Link href="/AONest/content">See available content here</Link> 
+        <Link href="/AONest/content">See available content here</Link>
+        <Link href={"https://go.aonest.com/courses/153"}>See available lesson worksheets here</Link>
         
           <div style={{ ...styles.iframeContainer, paddingTop: 20 }}>
             <iframe
@@ -51,7 +52,7 @@ export default function EmotionWheelSelection() {
           <View style={{flex: 0.75, alignItems: 'center'}}>
             <Text style={styles.title}>Emotional Intelligence</Text>
             <Text style={styles.subtitle}>You selected {selection}.</Text>
-            <Link href="/AONest/content">See available content here</Link> 
+            <Link href="/AONest/content">See available content here</Link>
             <WebView
               style={{
                 top: '10%',
